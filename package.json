@@ -22,6 +22,6 @@
     "client": "cd client && yarn start",
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "prod": "concurrently \"yarn run start\" \"yarn run client\"",
-    "build": "concurrently \"yarn run start\" \"yarn run client\""
+    "build": "yarn && cd client && yarn && cd .. && concurrently \"yarn run start\" \"yarn run client\""
   }
 }
