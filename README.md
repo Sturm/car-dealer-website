@@ -9,7 +9,10 @@ APP_PORT=1337
 ```
 Then run
 ```
+yarn 
+cd client
 yarn
+cd ..
 yarn run dev
 ```
 Success! Your app will be available on `http://localhost:3000/`
@@ -25,3 +28,7 @@ Backend:
 - Node.js
 - MongoDB
 - Express.js
+
+## Demo
+Unfortunately, demo is now available yet, but here's a screenshot from homepage:
+![Car website app](https://i.imgur.com/QzaBQRp.png)
