@@ -1,0 +1,11 @@
+@import "./src/assets/scss/utils/colors";
+
+.homepage {
+  padding: 40px 0;
+  h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+  }
+}

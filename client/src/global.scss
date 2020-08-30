@@ -1,0 +1,23 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "./src/assets/scss/utils/colors";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+  font-size: 1.6rem;
+}
+
+.btn-app-primary {
+  background-color: $color-primary;
+  color: white;
+  border-radius: 0;
+  font-size: 1.6rem;
+  padding: 8px 23px;
+}
+
+.btn-app-primary:hover {
+  color: white;
+}

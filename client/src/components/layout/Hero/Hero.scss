@@ -1,0 +1,15 @@
+.hero {
+  background: url('https://www.jalabornholm.dk/img/background/2.jpg') center center fixed;
+  color: white;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+
+
+  h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+  }
+}
